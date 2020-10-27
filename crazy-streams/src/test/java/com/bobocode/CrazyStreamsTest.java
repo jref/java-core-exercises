@@ -136,6 +136,7 @@ public class CrazyStreamsTest {
         assertTrue(streams.containsAccountWithEmailDomain("gmail.com"));
         assertTrue(streams.containsAccountWithEmailDomain("yahoo.com"));
         assertFalse(streams.containsAccountWithEmailDomain("ukr.net"));
+        assertFalse(streams.containsAccountWithEmailDomain("cardenas"));
     }
 
     @Test
